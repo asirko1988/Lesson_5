@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+   font-family: "Larsseit";
+   src: url(../fonts/Larsseit-Bold.woff2) format(woff2), url(../fonts/Larsseit-Bold.woff) format(woff);
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Larsseit";
+   src: url(../fonts/Larsseit-Medium.woff2) format(woff2), url(../fonts/Larsseit-Medium.woff) format(woff);
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Larsseit";
+   src: url(../fonts/Larsseit-Regular.woff2) format(woff2), url(../fonts/Larsseit-Regular.woff) format(woff);
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Lato";
+   src: url(../fonts/Lato-Bold.woff2) format(woff2), url(../fonts/Lato-Bold.woff) format(woff);
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Lato";
+   src: url(../fonts/Lato-Regular.woff2) format(woff2), url(../fonts/Lato-Regular.woff) format(woff);
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+body{
+   font-family: "Roboto";
+   font-weight: 300;
+}
+
+.title{
+   font-family: cursive, "Roboto";
+   font-weight: 900;
+   font-size: 20px;
+   color: rgb(44, 44, 77);
+   text-align: center;
+   word-spacing: 20px;
+}
+.text{
+   font-family: serif,"Larsseit";
+   font-weight: 700;
+   font-style: italic;
+   text-align: left;
+   text-decoration: underline;
+   text-indent: 20px;
+}
+.system{
+   font-family: sans-serif,"Larsseit";
+   font-weight: 400;
+   font-size: 20px;
+   text-align: right;
+   text-decoration: line-through;
+}
+.class{
+   font-family: fantasy, "Larsseit";
+   font-weight: 500;
+   font-style: italic;
+   text-align: justify;
+   text-transform:uppercase;
+}
+.camera{
+   font-family: monospace, "Lato";
+   font-weight: 400;
+   font-style: oblique;
+   text-shadow: 2px 2px 5px #000;
+   letter-spacing: 7px;
+}
+.language{
+   font-family: "Lato";
+   font-weight: 700;
+   text-transform:capitalize;
+   line-height: 1.5;
+   white-space: nowrap;
+}
+.footer{
+   font-family: "Roboto";
+   font-weight: 700;
+   font-style: normal;
+   text-decoration: overline;
+   text-transform:lowercase;
+}
+
+p{
+   color: rgba(8, 93, 8, 0.5);
+}
+p{
+   color: red;
+}
+.text{
+   color: #1f7909;
+}
+#pay{
+   color: blue;
+}
+.text-block{
+   color: rgb(136, 13, 13);
+}
+p.text{
+   color: blueviolet;
+}
+.item{
+   background-color: #77608d;
+   padding: 10px;
+	width: 200px;
+}
